@@ -30,7 +30,7 @@ sum_of_crypto_value = 0
 
 # Open URL,read data from URL and create dictionary with these data
 # Calculate value of each cryptocurrency and calculate the sum of those values 
-# Print those values
+# Print those values 
 
 for i in range(len(crypto)):
     url="https://min-api.cryptocompare.com/data/pricemulti?fsyms="+crypto[i]+"&tsyms=EUR"
