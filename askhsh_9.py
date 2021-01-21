@@ -1,6 +1,6 @@
 import math
 
-#Find the iterations of each character in a text and print the percentage of each character based on the total text's characters
+#Find the iterations of each character in a text and print the percentage of each character based on the total text's odd characters
 def Show_char_per(txt):
     total_odd_characters=0    
     characters_ascii=[]  #Create a list to store the equivelant ascii value of each character in the text
