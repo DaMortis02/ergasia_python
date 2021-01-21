@@ -1,4 +1,4 @@
-import math
+import math 
 
 #Find the iterations of each character in a text and print the percentage of each character based on the total text's odd characters
 def Show_char_per(txt):
