@@ -40,4 +40,4 @@ for item in data:
     if item in punctuation:
         data=data.replace(item, "")
 
-print(Show_char_per(data))
+Show_char_per(data)
